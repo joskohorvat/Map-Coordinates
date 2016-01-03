@@ -10,8 +10,8 @@
     <string name="app_name">Map Coordinates</string>
     <string name="latitude">Lat:</string>
     <string name="longitude">Long:</string>
-    <string name="CopyCoordinates">Copiraj koordinate</string>
-    <string name="CopyAddress">Copiraj naslov</string>
+    <string name="CopyCoordinates">Kopiraj koordinate</string>
+    <string name="CopyAddress">Kopiraj naslov</string>
     <string name="GoToLocation">Pojdi na koordinate</string>
     <string name="EnterCoordinates">Vnesi koordinate</string>
     <string name="EnterAddress">Vnesi naslov</string>
@@ -22,11 +22,11 @@
     <string name="MyLocation">Moja trenutna lokacija</string>
     <string name="address">Naslov:</string>
     <string name="GoToAddress">Pojdi na naslov</string>
-    <string name="satellite">Satellit</string>
-    <string name="normal">Normalno</string>
+    <string name="satellite">Satelit</string>
+    <string name="normal">Pregledno</string>
     <string name="terrain">Teren</string>
     <string name="hybrid">Hibrid</string>
-    <string name="NoAddress">Naslov ni razpolago</string>
+    <string name="NoAddress">Naslov ni na razpolago</string>
     <string name="CanNotGetAddress">Naslova ni možno najti.</string>
     <string name="get_directions">Pridobi smer</string>
     <string name="Show">Prikaži</string>
@@ -45,8 +45,8 @@
         <!-- <item>UTM WGS84</item> -->
     </string-array>
 
-    <string name="ActionItems">Action items</string>
-    <string name="CurrentLocationDescription">Trenutna lokacija. For best results, you should enable GPS and Google location services. Also, keep in mind that the results are influenced of the device\'s GPS hardware and indoor location finding is always less accurate.</string>
+    <string name="ActionItems">Postavke</string>
+    <string name="CurrentLocationDescription">Trenutna lokacija. Za najboljše rezultate, bi bilo dobro omogočiti GPS and Google lokacijske storitve. Pomnite, da so podatki odvisni od natančnosti senzorjev v GPS napravah. V pokritih prostorih je natančnost vedno slabša kot zunaj na prostem.</string>
     <string name="GetDirectionsDescription">Pridobi smer. Odpre Google Map navigacijo do lokacije, ki je bila označena v Map Coordinates.</string>
     <string name="ShareLocationDescription">Deli lokacijo. Ponuja možnost deljenja vašega naslova in koordinat z vašimi prijatelji. Če imate polni dostop do naprave (root) in ste poklikali opcijo "Posnetek zaslona" v nastavitvah zaslona, bo poslan tudi posnetek zaslona.</string>
     <string name="About">Vizitka</string>
@@ -57,75 +57,75 @@
     <string name="never_show_again">Ne prikazuj tega več</string>
     <string name="CurrentLocationUnavailable">Trenutna lokacija ni dosegljiva</string>
     <string name="join_beta_testing_dialog_title">Pridružite se beta testiranju</string>
-    <string name="join_beta_testing_dialog_message">Če želite prejemati posodobitve z novimi funcionalnostmi in popravki hitreje, se lahko pridružite Map Coordinates skupnosti na Google+ in postanete beta tester.</string>
+    <string name="join_beta_testing_dialog_message">Če želite prejemati posodobitve z novimi funcionalnostmi in popravki hitreje, se lahko pridružite "Map Coordinates" skupnosti na Google+ in postanete beta tester.</string>
     <string name="join_beta_testing_dialog_positive_button">Pridruži se</string>
     <string name="beta_testing">Beta testiranje</string>
     <string name="Distance">Razdalja:</string>
 
     <string-array name="measure_unit_types">
-        <item>Metric</item>
-        <item>Imperial</item>
-        <item>Marine</item>
+        <item>Metrični</item>
+        <item>Imperialni</item>
+        <item>Pomorski</item>
     </string-array>
 
-    <string name="MeasureUnit">Measure unit</string>
-    <string name="Ruler">Measure tool</string>
-    <string name="Clear">Clear</string>
-    <string name="AddressCopied">Address copied to clipboard</string>
-    <string name="CoordinatesCopied">Coordinates copied to clipboard</string>
-    <string name="history">&history;</string>
-    <string name="favorites">&favorites;</string>
-    <string name="history_favorites">&history;/&favorites;</string>
-    <string name="screenshotShare">Screenshot share</string>
-    <string name="requiresRoot">Requires root access</string>
-    <string name="precision">MGRS Precision</string>
-    <string name="support">Support the development</string>
-    <string name="donate_with_paypal">Donate with Paypal</string>
-    <string name="support_app">Do you find this app useful?\nSupport its development by sending donations to the developer!</string>
-    <string name="alias">Alias:</string>
-    <string name="delete">Delete</string>
-    <string name="edit">Edit</string>
-    <string name="altitude">Elevation</string>
-    <string name="altitude_colon">Elevation:</string>
-    <string name="altitude_label">Elevation Label</string>
-    <string name="location_services">Location Mode</string>
-    <string name="location_services_description">GPS - Accurate but slow\nGoogle - Fast but less accurate</string>
-    <string name="confirm_clear_all">You are about to clear all locations from %1$s</string>
-    <string name="SaveToContact">Save to contact</string>
-    <string name="SaveToContactDescription">Save to contact. Allows you to save the currently displayed coordinates to a contact from your contacts list.</string>
+    <string name="MeasureUnit">Merilna enota</string>
+    <string name="Ruler">Merilno orodje</string>
+    <string name="Clear">Pobriši</string>
+    <string name="AddressCopied">Naslov kopiran v odložišče</string>
+    <string name="CoordinatesCopied">koordinate kopirane v odložišče</string>
+    <string name="history">&zgodovina;</string>
+    <string name="favorites">&zaznamki;</string>
+    <string name="history_favorites">&zgodovina;/&zaznamki;</string>
+    <string name="screenshotShare">deli posnetek zaslona</string>
+    <string name="requiresRoot">Potreben root dostop</string>
+    <string name="precision">MGRS natančnost</string>
+    <string name="support">Podpora razvoja</string>
+    <string name="donate_with_paypal">Prispevajte z Paypal-om</string>
+    <string name="support_app">Se vam zdi ta aplikacija uporabna?\nPomagajte pri razvoju aplikacije z skromnim prispevkom!</string>
+    <string name="alias">Psevdonim:</string>
+    <string name="delete">Briši</string>
+    <string name="edit">Uredi</string>
+    <string name="altitude">Višina</string>
+    <string name="altitude_colon">Višina:</string>
+    <string name="altitude_label">Oznaka višine</string>
+    <string name="location_services">Način iskanja</string>
+    <string name="location_services_description">GPS - natnčno ampak počasno\nGoogle - hitro, vendar manj natančno</string>
+    <string name="confirm_clear_all">Ste pred tem, da pobrišete vse lokacije iz %1$s</string>
+    <string name="SaveToContact">Shrani v stike</string>
+    <string name="SaveToContactDescription">Shrani v stike. Vam omogoča hrambo trenutno prikazanih koordinat, k željenemu stiku v vaši napravi.</string>
 
-    <string name="location_title_no_gps_signal">No GPS Signal</string>
-    <string name="location_title_gps_disabled">GPS Disabled</string>
-    <string name="location_title_no_location_provider">No Location Provider</string>
+    <string name="location_title_no_gps_signal">Brez GPS signala</string>
+    <string name="location_title_gps_disabled">GPS onemogočen</string>
+    <string name="location_title_no_location_provider">Brez lokacijske storitve</string>
     <!-- Please turn on {parameter}... -->
-    <string name="location_instructions">Please turn on &lt;b>\"%1$s\"&lt;/b> for best location accuracy.</string>
+    <string name="location_instructions">Vključite &lt;b>\"%1$s\"&lt;/b> za največjo natančnost lokacije.</string>
     <!-- ...(wireless networks) -->
-    <string name="gps_and_google_location_providers">GPS and Google location services &#40;wireless networks&#41;</string>
-    <string name="high_accuracy_mode">High accuracy mode</string>
-    <string name="date_time_bar_title">Date &#38; Time bar</string>
-    <string name="time_zone_options_title">Time zone</string>
+    <string name="gps_and_google_location_providers">GPS in Google lokacijske storitve &#40;brezžična omrežja&#41;</string>
+    <string name="high_accuracy_mode">Največja natančnost</string>
+    <string name="date_time_bar_title">Datum &#38; Čas pasica</string>
+    <string name="time_zone_options_title">Časovna regija</string>
 
     <string-array name="time_zone_options">
-        <item>Local</item>
+        <item>Lokalno</item>
         <item>GMT</item>
-        <item>Map</item>
+        <item>Zemljevid</item>
     </string-array>
 
-    <string name="more_apps_menu_item_title">More apps</string>
+    <string name="more_apps_menu_item_title">Več aplikacij</string>
 
-    <string name="export_items">Export</string>
-    <string name="import_items">Import</string>
-    <string name="failed_to_export_items">Failed to export items</string>
-    <string name="export_data_to">Export data to</string>
-    <string name="keep_existing_data">Keep existing data?</string>
-    <string name="keep">Keep</string>
-    <string name="discard">Discard</string>
-    <string name="file_type_not_supported">Sorry, selected file type is not supported.</string>
-    <string name="importing_data">Importing data …</string>
-    <string name="Logs">Logs</string>
-    <string name="map_provider">Map Provider</string>
-    <string name="google_maps">Google Maps</string>
-    <string name="open_street_maps">Open Street Maps</string>
-    <string name="bing_maps">Bing Maps</string>
+    <string name="export_items">Izvozi</string>
+    <string name="import_items">Uvozi</string>
+    <string name="failed_to_export_items">Spodletel izvoz postavk</string>
+    <string name="export_data_to">Izvoz podatkov na</string>
+    <string name="keep_existing_data">Obdržim obstoječe podatke?</string>
+    <string name="keep">Obdrži</string>
+    <string name="discard">Zavrzi</string>
+    <string name="file_type_not_supported">Žal označen tip datoteke ni podprt.</string>
+    <string name="importing_data">Uvoz podatkov …</string>
+    <string name="Logs">Povzetki</string>
+    <string name="map_provider">Ponudnik zemljevida</string>
+    <string name="google_maps">Google zemljevid</string>
+    <string name="open_street_maps">OSM</string>
+    <string name="bing_maps">Bing zemljevid</string>
 
 </resources>
